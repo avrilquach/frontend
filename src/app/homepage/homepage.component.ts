@@ -15,7 +15,7 @@ export class HomepageComponent implements OnInit {
   ngOnInit() {
       this.api.getPhotos()
         .subscribe(data => {
-          for (const d of (data as any)) {
+          for(const d of (data as any)) {
             this.photos.push({
               id: d.id,
               name: d.name,
