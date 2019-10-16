@@ -1,9 +1,15 @@
 <div ng-controller="HomepageComponent">
   <div class="container">
-    <div class="row">
+    <section>
       <div class="item" *ngFor="let photo of photos">
         <img src="{{ photo.src }}"/>
+        <h4>{{ photo.name }}</h4>
       </div>
-    </div>
+    </section>
+    <section>
+      <div class="item" *ngFor="let photo of photos | orderBy: key : reverse">
+        <img src="{{ photo.src }}"/>
+      </div>
+    </section>
   </div>
 </div>
