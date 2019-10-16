@@ -3,180 +3,180 @@
     "id": "01",
     "name": "Image_1",
     "src": "assets/img/photo-1.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "02",
     "name": "Image_2",
     "src": "assets/img/photo-2.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "03",
     "name": "Image_3",
     "src": "assets/img/photo-3.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "04",
     "name": "Image_4",
     "src": "assets/img/photo-4.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "05",
     "name": "Image_5",
     "src": "assets/img/photo-5.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "06",
     "name": "Image_6",
     "src": "assets/img/photo-6.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "07",
     "name": "Image_7",
     "src": "assets/img/photo-7.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "08",
     "name": "Image_8",
     "src": "assets/img/photo-8.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "09",
     "name": "Image_9",
     "src": "assets/img/photo-9.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "10",
     "name": "Image_10",
     "src": "assets/img/photo-10.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "11",
     "name": "Image_11",
     "src": "assets/img/photo-11.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "12",
     "name": "Image_12",
     "src": "assets/img/photo-12.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "13",
     "name": "Image_13",
     "src": "assets/img/photo-13.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "14",
     "name": "Image_14",
     "src": "assets/img/photo-14.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "15",
     "name": "Image_15",
     "src": "assets/img/photo-15.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "16",
     "name": "Image_16",
     "src": "assets/img/photo-16.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "17",
     "name": "Image_17",
     "src": "assets/img/photo-17.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "18",
     "name": "Image_18",
     "src": "assets/img/photo-18.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "19",
     "name": "Image_19",
     "src": "assets/img/photo-19.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "20",
     "name": "Image_20",
     "src": "assets/img/photo-20.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "21",
     "name": "Image_21",
     "src": "assets/img/photo-21.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "22",
     "name": "Image_22",
     "src": "assets/img/photo-22.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "23",
     "name": "Image_23",
     "src": "assets/img/photo-23.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "24",
     "name": "Image_24",
     "src": "assets/img/photo-24.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "25",
     "name": "Image_25",
     "src": "assets/img/photo-25.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "26",
     "name": "Image_26",
     "src": "assets/img/photo-26.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "27",
     "name": "Image_27",
     "src": "assets/img/photo-27.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "28",
     "name": "Image_28",
     "src": "assets/img/photo-28.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "29",
     "name": "Image_29",
     "src": "assets/img/photo-29.jpg",
-    "vote": "0"
+    "rating ": "0"
   },
   {
     "id": "30",
     "name": "Image_30",
     "src": "assets/img/photo-30.jpg",
-    "vote": "0"
+    "rating ": "0"
   }
 ]
