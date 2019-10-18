@@ -4,19 +4,22 @@ import {HttpClientModule} from '@angular/common/http';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HomepageComponent} from './homepage/homepage.component';
+import {OrderByPipe} from "./order-by.pipe";
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        HomepageComponent
-    ],
-    imports: [
-        BrowserModule,
-        HttpClientModule,
-        AppRoutingModule
-    ],
-    providers: [],
-    bootstrap: [AppComponent]
+  declarations: [
+    AppComponent,
+    HomepageComponent,
+    OrderByPipe
+  ],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    AppRoutingModule
+
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule {
 }

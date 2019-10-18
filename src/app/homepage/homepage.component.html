@@ -1,15 +1,43 @@
 <div ng-controller="HomepageComponent">
   <div class="container">
     <section>
-      <div class="item" *ngFor="let photo of photos">
-        <img src="{{ photo.src }}"/>
+      <h2>List Photos</h2>
+      <div class="item" *ngFor="let photo of photos | orderBy:'name'">
+        <div class="inner">
+          <img src="{{ photo.src }}"/>
+          <div class="hover">
+            <div class="rating">
+            <span *ngIf="photo.rating === '5'"
+              (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'5'})">☆</span>
+              <span
+                (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'4'})">☆</span>
+              <span
+                (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'3'})">☆</span>
+              <span
+                (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'2'})">☆</span>
+              <span
+                (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'1'})">☆</span>
+            </div>
+          </div>
+          <a style="color: #fff;padding: 0 10px"
+             (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'0'})">Unvote</a>
+        </div>
         <h4>{{ photo.name }}</h4>
       </div>
-    </section>
-    <section>
-      <div class="item" *ngFor="let photo of photos | orderBy: key : reverse">
+  </section>
+  <section>
+    <h2>Top Rating</h2>
+    <div class="item" *ngFor="let photo of photos| orderBy:'rating'">
+      <div class="inner">
         <img src="{{ photo.src }}"/>
+        <div class="hover">
+
+          <a style="color: #fff;padding: 0 10px"
+             (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'0'})">Unvote</a>
+        </div>
       </div>
-    </section>
-  </div>
+      <h4>{{ photo.name }}</h4>
+    </div>
+  </section>
+</div>
 </div>
