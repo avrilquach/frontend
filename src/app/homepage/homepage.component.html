@@ -7,7 +7,7 @@
           <img src="{{ photo.src }}"/>
           <div class="hover">
             <div class="rating">
-            <span *ngIf="photo.rating === '5'"
+            <!--<span
               (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'5'})">☆</span>
               <span
                 (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'4'})">☆</span>
@@ -16,28 +16,29 @@
               <span
                 (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'2'})">☆</span>
               <span
-                (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'1'})">☆</span>
+                (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'1'})">☆</span>-->
+              <span *ngIf="photo.rating === 5 ">{{ generateStar(photo.rating) }}☆</span>
             </div>
+            <a style="color: #fff;padding: 0 10px"
+               (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'0'})">Unvote</a>
           </div>
-          <a style="color: #fff;padding: 0 10px"
-             (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'0'})">Unvote</a>
+
         </div>
         <h4>{{ photo.name }}</h4>
       </div>
-  </section>
-  <section>
-    <h2>Top Rating</h2>
-    <div class="item" *ngFor="let photo of photos| orderBy:'rating'">
-      <div class="inner">
-        <img src="{{ photo.src }}"/>
-        <div class="hover">
-
-          <a style="color: #fff;padding: 0 10px"
-             (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'0'})">Unvote</a>
+    </section>
+    <section>
+      <h2>Top Rating</h2>
+      <div class="item" *ngFor="let photo of photos| orderBy:'rating'">
+        <div class="inner">
+          <img src="{{ photo.src }}"/>
+          <div class="hover">
+            <a style="color: #fff;padding: 0 10px"
+               (click)="UpdatePhotos(photo.id,{id:'photo.id', name:photo.name, src:photo.src, rating:'0'})">Unvote</a>
+          </div>
         </div>
+        <h4>{{ photo.name }}</h4>
       </div>
-      <h4>{{ photo.name }}</h4>
-    </div>
-  </section>
-</div>
+    </section>
+  </div>
 </div>
